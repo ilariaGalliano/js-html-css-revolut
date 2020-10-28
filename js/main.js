@@ -7,12 +7,12 @@
   $(document).ready(function() {
   // Referenze
   var drop = $('.dropdown > a');
-  var dropMenu = $('.dropdown .dropdown-1 > a');
+  var dropMenu = $('.dropdown .dropdown-1');
 
   // Show / Hide
   drop.click( function() {
 
-    var menu = $(this).next('dropdown-1');
+    var menu = $(this).next('.dropdown-1');
     dropMenu.not(menu).hide();
 
     menu.toggle();
