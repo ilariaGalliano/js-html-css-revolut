@@ -1,0 +1,73 @@
+/* General */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Container */
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Nav left */
+.nav-left{
+  float: left;
+}
+.nav-left img.logo{
+  max-width: 100px;
+}
+.nav-left ul li{
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #a0a6ad;
+  transition: color .4s;
+}
+.nav-left ul li:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+/* Nav Right */
+.nav-right{
+  float: right;
+}
+.nav-right ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #a0a6ad;
+  transition: color .4s;
+}
+.nav-right ul li:hover{
+  color: #000;
+  cursor: pointer;
+}
+.nav-right ul select{
+  color: #a0a6ad;
+  margin-left: 20px;
+  transition: color .4s;
+}
+.nav-right ul select:hover{
+  color: #000;
+  cursor: pointer;
+}
+.nav-right ul button{
+  background: #ec008b;
+  color: #fff;
+  line-height: 2;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 0;
+  margin-left: 20px;
+}
+.nav-right ul button:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
