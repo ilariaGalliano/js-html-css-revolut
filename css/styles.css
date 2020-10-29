@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+.mg-top{
+  margin-top: 10px;
+}
 
 /* Container */
 .container{
@@ -59,6 +62,8 @@
   color: #a0a6ad;
   margin-left: 20px;
   transition: color .4s;
+  outline: none;
+  border: none;
 }
 .nav-right ul select:hover{
   color: #000;
@@ -88,8 +93,6 @@
 .nav-right li .dropdown-1{
   display: none;
   position: absolute;
-  /* top: 100%;
-  right: -20px; */
   background: #fff;
   border-radius: 20px;
   width: 200px;
@@ -103,4 +106,15 @@
 }
 .dropdown-1 a {
   text-decoration: none;
+}
+
+/* Label */
+.relative{
+  position: relative;
+}
+.label{
+  color: #ec008b;
+  position: absolute;
+  top: -10px;
+  font-size: 12px;
 }
